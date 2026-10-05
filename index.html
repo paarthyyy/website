@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LensCraft - Visual Discovery Engine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Branded Sticky Header -->
+  <header class="site-header">
+    <div class="logo-area">
+      <h1 class="app-title">LensCraft</h1>
+      <p class="tagline">Explore stunning high-res imagery from around the globe</p>
+    </div>
+
+    <!-- Search Form Control -->
+    <form id="search-form" class="search-form">
+      <label for="search-input" class="visually-hidden">Search for images</label>
+      <input 
+        id="search-input" 
+        type="search" 
+        placeholder="Try 'emerald forest' or 'tokyo neon'..." 
+        required 
+      />
+      <button id="search-button" type="submit">Discover</button>
+      <button id="clear-button" type="reset">Clear</button>
+    </form>
+  </header>
+
+  <main class="main-content">
+    <!-- Category / Quick-Pick Suggestion Chips -->
+    <section class="chips-container" aria-label="Suggested Categories">
+      <span class="chips-label">Popular:</span>
+      <button type="button" class="chip">Nature</button>
+      <button type="button" class="chip">Architecture</button>
+      <button type="button" class="chip">Cyberpunk</button>
+      <button type="button" class="chip">Minimalism</button>
+    </section>
+
+    <!-- Results Status & Empty State -->
+    <p id="status-message" class="status-message">Showing 0 results</p>
+
+    <!-- Empty State Banner -->
+    <div id="empty-state" class="empty-state">
+      <p>✨ Search to see results or click a category above to begin!</p>
+    </div>
+
+    <!-- Empty Results Container (Responsive Grid Target for Part 2) -->
+    <section id="results" class="results-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
