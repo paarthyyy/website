@@ -1,3 +1,4 @@
+
 // Select DOM elements
 const form = document.getElementById("search-form");
 const input = document.getElementById("search-input");
@@ -120,3 +121,5 @@ chips.forEach((chip) => {
     handleSearch(topic);
   });
 });
+// LensCraft - Part 1: Scaffold & UI
+ main
