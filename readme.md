@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features  
 
 * **Responsive CSS Grid Layout**: Image results adapt automatically across mobile, tablet, and desktop screens using native CSS Grid (`auto-fill` and `minmax`).
 * **Category Suggestion Chips**: Quick-pick topic pills (Nature, Architecture, Cyberpunk, Minimalism) for instant search ideas.
