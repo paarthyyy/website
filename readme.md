@@ -12,7 +12,7 @@
 * **Empty State Messaging**: Clear UI feedback informing users how to begin searching when no results are displayed.
 
 ---
-
+ 
 ## 🎨 Design Decisions
 
 1. **Teal Dark Mode Theme**: Selected a deep slate (`#0f172a`) background with vibrant teal accents (`#0d9488`) to establish a modern aesthetic distinct from standard layout templates.
